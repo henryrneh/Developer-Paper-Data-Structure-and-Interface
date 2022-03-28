@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+
+    <div id="app" class="container">
+        <h2 class="d-flex justify-content-center">
+            Developer Paper Studies
+        </h2>
+        
+
+        <nav class="navbar navbar-expand-sm bg-light navbar-dark">
+            <ul class="navbar-nav">
+
+            <li class="nav-item m-1">
+                <router-link class="btn btn-light btn-outline-primary"
+                to="/home">Home</router-link>
+            </li>
+            <li class="nav-item m-1">
+                <router-link class="btn btn-light btn-outline-primary"
+                to="/main">Main</router-link>
+            </li>
+            <li class="nav-item m-1">
+                <router-link class="btn btn-light btn-outline-primary"
+                to="/qualitative">Qualitative</router-link>
+            </li>
+            <li class="nav-item m-1">
+                <router-link class="btn btn-light btn-outline-primary"
+                to="/quantitative">Quantitative</router-link>
+            </li>
+            <li class="nav-item m-1">
+                <router-link class="btn btn-light btn-outline-primary"
+                to="/independent_variable">Independent_Variable</router-link>
+            </li>
+            <li class="nav-item m-1">
+                <router-link class="btn btn-light btn-outline-primary"
+                to="/iv_level">IV_Level</router-link>
+            </li>
+            <li class="nav-item m-1">
+                <router-link class="btn btn-light btn-outline-primary"
+                to="/dependent_variable">Dependent_Variable</router-link>
+            </li>
+            <li class="nav-item m-1">
+                <router-link class="btn btn-light btn-outline-primary"
+                to="/dv_level">DV_Level</router-link>
+            </li>
+            <li class="nav-item m-1">
+                <router-link class="btn btn-light btn-outline-primary"
+                to="/agreement">Agreement</router-link>
+            </li>
+            <li class="nav-item m-1">
+                <router-link class="btn btn-light btn-outline-primary"
+                to="/author">Author</router-link>
+            </li>
+            <li class="nav-item m-1">
+                <router-link class="btn btn-light btn-outline-primary"
+                to="/authorid">Author_ID</router-link>
+            </li>
+            <li class="nav-item m-1">
+                <router-link class="btn btn-light btn-outline-primary"
+                to="/descriptive_statics">Descriptive_Statics</router-link>
+            </li>
+            <li class="nav-item m-1">
+                <router-link class="btn btn-light btn-outline-primary"
+                to="/research_questions">Research_Questions</router-link>
+            </li>
+            <li class="nav-item m-1">
+                <router-link class="btn btn-light btn-outline-primary"
+                to="/study_methods">Study_Methods</router-link>
+            </li>
+            <li class="nav-item m-1">
+                <router-link class="btn btn-light btn-outline-primary"
+                to="/sample">Sample</router-link>
+            </li>
+            </ul>
+        </nav>
+        <router-view></router-view>
+    </div>
+
+    <script src="variables.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="https://unpkg.com/vue-router@4"></script>
+    <script src="home.js"></script>
+    <script src="main.js"></script>
+    <script src="qualitative.js"></script>
+    <script src="quantitative.js"></script>
+    <script src="independent_variable.js"></script>
+    <script src="iv_level.js"></script>
+    <script src="dependent_variable.js"></script>
+    <script src="dv_level.js"></script>
+    <script src="agreement.js"></script>
+    <script src="author.js"></script>
+    <script src="author_id.js"></script>
+    <script src="descriptive_statics.js"></script>
+    <script src="research_questions.js"></script>
+    <script src="study_methods.js"></script>
+    <script src="sample.js"></script>
+    <script src="app.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
